@@ -1,0 +1,32 @@
+@namespace(uri="http://mymodel", prefix="")
+package mymodel;
+
+class Project {
+  id attr String name;
+  val WorkingDir[*] workingDirs;
+  val Job[*] jobs;
+}
+
+class WorkingDir {
+  id attr String name;
+  attr String path;
+}
+
+class Job {
+  id attr String name;
+  ref WorkingDir workingDir;
+  val Cmd[*] tasks;
+}
+
+abstract class Cmd {
+  
+}
+
+class SimpleCmd extends Cmd {
+  attr String cmd;
+}
+
+class FindCmd extends Cmd {
+  ref WorkingDir path;
+}
+

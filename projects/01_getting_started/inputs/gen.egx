@@ -1,0 +1,11 @@
+rule Gen1Temp1
+  transform project : Project { 
+  template : "./cpp.egl"  
+  target : "../generated/" + project.name + ".cpp"
+}
+
+rule Gen1Temp2 
+  transform project : Project { 
+  template : "./info.egl"  
+  target : "../generated/" + project.name + ".txt"
+}

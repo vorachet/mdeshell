@@ -1,0 +1,12 @@
+Welcome to [%=project.name%] project
+
+Two files generated 
+
+File: [%=project.name%].txt 
+
+File: [%=project.name%].cpp  
+
+A simplfieid c program
+Hoe to compile: g++ [%=project.name%].cpp -o [%=project.name%]
+
+

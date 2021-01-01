@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<?nsuri http://mymodel?>
+
+<project name="MyUnixJobs">
+    <workingDir name="userdir" path="~/"></workingDir>
+    <job name="showMyComputerName" workingDir="userdir">
+        <simple cmd="uname -a"/>
+    </job>
+    <job name="showNetworkInterfaces" workingDir="userdir">
+        <simple cmd="ifconfig -a"/>
+    </job>
+    <job name="findFiles" workingDir="userdir">
+        <find path="userdir"/>
+    </job>
+</project>

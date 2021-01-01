@@ -1,0 +1,29 @@
+#!/bin/bash
+
+PS3='Choose program '
+options=([% for (j in project.jobs) { %]"[%=j.name%]" [% } %] "quit")
+
+select opt in "${options[@]}"
+do
+    case $opt in
+        [% for (j in project.jobs) { %]
+        "[%=j.name%]")
+            [% for (t in j.tasks) { %]
+            cd [%=j.workingDir.path%];
+            [% if (t.type.name == "SimpleCmd") { %]
+            [%=t.cmd%] 
+            [% } %]
+            [% if (t.type.name == "FindCmd") { %]
+            read -p "Enter Search Pattern: "  pattern
+            find [%=j.workingDir.path%] -name "${pattern}"
+            [% } %]
+            [% } %]
+            exit 0
+            ;;
+        [% } %]
+        "quit")
+            break
+            ;;
+        *) echo "invalid option $REPLY";;
+    esac
+done

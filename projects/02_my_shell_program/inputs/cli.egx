@@ -1,0 +1,5 @@
+rule ScriptProject 
+  transform project : Project { 
+  template : "./cli.egl"  
+  target : "../generated/" + project.name + ".sh"
+}

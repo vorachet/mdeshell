@@ -1,0 +1,6 @@
+@namespace(uri="http://getting-started", prefix="")
+package mymodel;
+
+class Project {
+  id attr String name;
+}

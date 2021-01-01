@@ -1,0 +1,6 @@
+outputs
+unused
+generated
+node_modules
+*.log
+*.aux
