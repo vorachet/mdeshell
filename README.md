@@ -6,7 +6,7 @@ Project website: https://github.com/vorachet/mdeshell
 
 Maintainer: Vorachet Jaroensawas <vorachet@gmail.com> @aotvorachet
 
-Limitation: mdeshell is tested on macOS 11.1/Linux Ubuntu 18 machine and Java 13.0.1. mdeshell does not provide an environment for MS Windows users and tutorial material at this time
+Limitation: mdeshell is tested on macOS 11.1 and Java 13.0.1. mdeshell does not provide an environment for MS Windows users and tutorial material at this time
 
 # Documentation
 
