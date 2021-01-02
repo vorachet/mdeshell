@@ -1,4 +1,4 @@
-#!/bin/sh
+#!/bin/bash
 # Vorachet Jaroensawas <vorachet@gmail.com>
 
 printf "\nChoose project number:\n"
