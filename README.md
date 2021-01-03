@@ -6,7 +6,7 @@ mdeshell is a bash shell based modeling environment that facilitates the definit
 
 Project website: https://github.com/vorachet/mdeshell
 
-Maintainer: Vorachet Jaroensawas $<$vorachet\@gmail.com$>$ \@aotvorachet
+Maintainer: Vorachet Jaroensawas <vorachet\@gmail.com>
 
 Limitation: mdeshell is tested on macOS 11.1 (Java 13) and Ubuntu 18.04 (Java 11). mdeshell does not provide an environment for MS Windows users.
 
