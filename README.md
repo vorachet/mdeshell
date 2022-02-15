@@ -16,6 +16,12 @@ Limitation: mdeshell is tested on macOS 11.1 (Java 13) and Ubuntu 18.04 (Java 11
       $ git clone https://github.com/vorachet/mdeshell.git
       $ cd mdeshell
 
+# Recommended tools
+
+A set of tools for the Eclipse Epsilon set of languages.
+
+https://marketplace.visualstudio.com/items?itemName=kellielutze.language-epsilon 
+
 
 # Running demo projects
 
