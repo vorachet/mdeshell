@@ -10,6 +10,12 @@ Maintainer: Vorachet Jaroensawas <vorachet\@gmail.com>
 
 Limitation: mdeshell is tested on macOS 11.1 (Java 13) and Ubuntu 18.04 (Java 11). mdeshell does not provide an environment for MS Windows users.
 
+# Our Users
+
+## Artifulate
+https://github.com/Artifulate/PublicBotProfiles Artifulate uses MDESHELL to perform model definition and M2T tasks for their Bot configuration files.
+
+
 # Getting started 
 
 
